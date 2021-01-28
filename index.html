@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1000" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="kanika.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <div class="box">
+      <div class="header">
+        <div class="header-left">
+          <div class="name">
+            <h1 class="first-name">KANIKA</h1>
+            <h1 class="last-name">RAJPUT</h1>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="email">
+            <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><p>Contact</p></a>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="linkedin">
+             <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><p>Linkedin</p></a>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="github">
+             <a href="https://github.com/Kanika28-2002"><p>Github</p></a>
+            <i class="fab fa-github"></i>
+          </div>
+          
+        </div>
+      </div>
+      <hr />
+      <div class="objective">
+        <div class="obj-heading grey">
+          <i class="fas fa-bullseye icon"></i>
+          <h2>ABOUT ME</h2>
+        </div>
+        <p>
+        I am a 2nd year student at Manav Rachna International Institute of Research and Studies pursuing Btech in Computer Science and Engineering with specialzation in Gaming and Graphics Technology.
+          
+        </p>
+      </div>
+      <div class="education">
+        <div class="ed-heading grey">
+          <i class="fas fa-school icon"></i>
+          <h2>Education</h2>
+        </div>
+
+        <table>
+          <tr>
+            <th>EDUCATION</th>
+            <th>INSTITUTE</th>
+            <th>YEAR</th>
+            
+          </tr>
+          <tr>
+            <td>B-Tech CSE GAG</td>
+            <td>MRIIRS</td>
+            <td>2019-2023</td>
+            
+          </tr>
+         
+          <tr>
+            <td>12TH STANDARD</td>
+            <td>QUEENS MARY</td>
+            <td>2018-2019</td>
+            
+          </tr>
+        </table>
+      </div>
+      <div class="skills">
+          <div class="skills-heading grey">
+                <i class="fas fa-tools icon"></i>
+                <h2>Skills</h2>
+          </div>
+
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>C++</li>
+         
+        </ul>
+      </div>
+      <div class="activities">
+        <div class="act-heading grey">
+          <i class="fab fa-creative-commons-nd icon"></i>
+          <h2>Activities</h2>
+        </div>
+
+        <p>
+        <li>Sketching</li>
+          <li>Digital Art</li>
+          <li>Illustrations</li>
+          
+        </p>
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">MY ARTWORK</h2>
+  <p class="w3-opacity"><i>illustrations and original art</i></p>
+</section>
+
+<section>
+  <img class="mySlides" src="callme.jpeg" style="width:50%">
+  <img class="mySlides" src="shade.jpeg" style="width:50%">
+  <img class="mySlides" src="neon.jpeg" style="width:50%">
+  <img class="mySlides" src="girl.jpeg" style="width:50%">
+  <img class="mySlides" src="vibe.jpeg" style="width:50%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+   
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://github.com/Kanika28-2002"><i class="fa fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.linkedin.com/in/kanika-rajput-630818177"><i class="fa fa-linkedin"></i></a>
+</footer>
+      </div>
+    </div>
+  </body>
+</html>
